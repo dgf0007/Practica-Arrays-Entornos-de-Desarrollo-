@@ -37,4 +37,11 @@ class test_Case {
 		assertEquals(12, Arrays.mediana(array3));
 	}
 
+	@Test
+	void testMaximo() {
+		assertEquals(10, Arrays.maximo(array1));
+		assertEquals(12, Arrays.maximo(array2));
+		assertEquals(12, Arrays.maximo(array3));
+	}
+
 }
