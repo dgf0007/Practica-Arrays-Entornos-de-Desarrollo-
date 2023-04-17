@@ -30,5 +30,11 @@ class test_Case {
 		assertEquals(7.0, Math.round(Arrays.media(array3)));
 	}
 
+	@Test
+	void testMediana() {
+		assertEquals(6, Arrays.mediana(array1));
+		assertEquals(4, Arrays.mediana(array2));
+		assertEquals(12, Arrays.mediana(array3));
+	}
 
 }
