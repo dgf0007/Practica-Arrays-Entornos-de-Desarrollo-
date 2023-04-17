@@ -5,7 +5,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 
 import com.entornos.Garcia_Fernandez_Daniel.Arrays;
@@ -44,4 +43,10 @@ class test_Case {
 		assertEquals(12, Arrays.maximo(array3));
 	}
 
+	@Test
+	void testMinimo() {
+		assertEquals(3, Arrays.minimo(array1));
+		assertEquals(4, Arrays.minimo(array2));
+		assertEquals(1, Arrays.minimo(array3));
+	}
 }
